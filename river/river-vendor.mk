@@ -123,7 +123,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/river/proprietary/vendor/lib/modules/audio_wcd_cpe.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_wcd_cpe.ko \
     vendor/motorola/river/proprietary/vendor/lib/modules/audio_wsa881x.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_wsa881x.ko \
     vendor/motorola/river/proprietary/vendor/lib/modules/audio_wsa881x_analog.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_wsa881x_analog.ko \
-    vendor/motorola/river/proprietary/vendor/lib/modules/aw869x.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/aw869x.ko \
     vendor/motorola/river/proprietary/vendor/lib/modules/cirrus_cs35l41.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/cirrus_cs35l41.ko \
     vendor/motorola/river/proprietary/vendor/lib/modules/cirrus_cs47l35.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/cirrus_cs47l35.ko \
     vendor/motorola/river/proprietary/vendor/lib/modules/cirrus_irq-madera.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/cirrus_irq-madera.ko \
@@ -131,36 +130,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/river/proprietary/vendor/lib/modules/cirrus_madera.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/cirrus_madera.ko \
     vendor/motorola/river/proprietary/vendor/lib/modules/cirrus_playback.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/cirrus_playback.ko \
     vendor/motorola/river/proprietary/vendor/lib/modules/cirrus_wm_adsp.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/cirrus_wm_adsp.ko \
-    vendor/motorola/river/proprietary/vendor/lib/modules/drv2624_mmi.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/drv2624_mmi.ko \
-    vendor/motorola/river/proprietary/vendor/lib/modules/ets_fps_mmi.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/ets_fps_mmi.ko \
-    vendor/motorola/river/proprietary/vendor/lib/modules/exfat.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/exfat.ko \
     vendor/motorola/river/proprietary/vendor/lib/modules/extcon-madera.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/extcon-madera.ko \
     vendor/motorola/river/proprietary/vendor/lib/modules/gpio-madera.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/gpio-madera.ko \
-    vendor/motorola/river/proprietary/vendor/lib/modules/himax_mmi.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/himax_mmi.ko \
     vendor/motorola/river/proprietary/vendor/lib/modules/madera-ldo1.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/madera-ldo1.ko \
     vendor/motorola/river/proprietary/vendor/lib/modules/madera-micsupp.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/madera-micsupp.ko \
-    vendor/motorola/river/proprietary/vendor/lib/modules/mmi_annotate.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/mmi_annotate.ko \
-    vendor/motorola/river/proprietary/vendor/lib/modules/mmi_info.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/mmi_info.ko \
-    vendor/motorola/river/proprietary/vendor/lib/modules/mmi_sys_temp.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/mmi_sys_temp.ko \
-    vendor/motorola/river/proprietary/vendor/lib/modules/modules.alias:$(TARGET_COPY_OUT_VENDOR)/lib/modules/modules.alias \
-    vendor/motorola/river/proprietary/vendor/lib/modules/modules.dep:$(TARGET_COPY_OUT_VENDOR)/lib/modules/modules.dep \
-    vendor/motorola/river/proprietary/vendor/lib/modules/mpq-adapter.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/mpq-adapter.ko \
-    vendor/motorola/river/proprietary/vendor/lib/modules/mpq-dmx-hw-plugin.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/mpq-dmx-hw-plugin.ko \
-    vendor/motorola/river/proprietary/vendor/lib/modules/nova_mmi.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/nova_mmi.ko \
-    vendor/motorola/river/proprietary/vendor/lib/modules/sensors_class.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/sensors_class.ko \
-    vendor/motorola/river/proprietary/vendor/lib/modules/sx933x_sar.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/sx933x_sar.ko \
-    vendor/motorola/river/proprietary/vendor/lib/modules/synaptics_tcm_core.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/synaptics_tcm_core.ko \
-    vendor/motorola/river/proprietary/vendor/lib/modules/synaptics_tcm_device.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/synaptics_tcm_device.ko \
-    vendor/motorola/river/proprietary/vendor/lib/modules/synaptics_tcm_diagnostics.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/synaptics_tcm_diagnostics.ko \
-    vendor/motorola/river/proprietary/vendor/lib/modules/synaptics_tcm_i2c.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/synaptics_tcm_i2c.ko \
-    vendor/motorola/river/proprietary/vendor/lib/modules/synaptics_tcm_recovery.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/synaptics_tcm_recovery.ko \
-    vendor/motorola/river/proprietary/vendor/lib/modules/synaptics_tcm_reflash.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/synaptics_tcm_reflash.ko \
-    vendor/motorola/river/proprietary/vendor/lib/modules/synaptics_tcm_testing.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/synaptics_tcm_testing.ko \
-    vendor/motorola/river/proprietary/vendor/lib/modules/synaptics_tcm_touch.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/synaptics_tcm_touch.ko \
-    vendor/motorola/river/proprietary/vendor/lib/modules/tps61280.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/tps61280.ko \
-    vendor/motorola/river/proprietary/vendor/lib/modules/tzlog_dump.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/tzlog_dump.ko \
-    vendor/motorola/river/proprietary/vendor/lib/modules/utags.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/utags.ko \
-    vendor/motorola/river/proprietary/vendor/lib/modules/watchdog_cpu_ctx.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/watchdog_cpu_ctx.ko \
-    vendor/motorola/river/proprietary/vendor/lib/modules/watchdogtest.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/watchdogtest.ko \
     vendor/motorola/river/proprietary/vendor/lib64/libets_fp_et5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libets_fp_et5.so \
     vendor/motorola/river/proprietary/vendor/lib64/libets_teeclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libets_teeclient.so

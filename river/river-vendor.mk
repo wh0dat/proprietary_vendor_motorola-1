@@ -23,12 +23,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/river/proprietary/vendor/etc/acdbdata/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Hdmi_cal.acdb \
     vendor/motorola/river/proprietary/vendor/etc/acdbdata/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Headset_cal.acdb \
     vendor/motorola/river/proprietary/vendor/etc/acdbdata/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Speaker_cal.acdb \
+    vendor/motorola/river/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-ets.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service-ets.rc \
+    vendor/motorola/river/proprietary/vendor/etc/init/init.ets.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.ets.rc \
     vendor/motorola/river/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_vid_boe_1080p_624.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_vid_boe_1080p_624.xml \
     vendor/motorola/river/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_1080p_624.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_vid_tianma_1080p_624.xml \
     vendor/motorola/river/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_h_1080p_624.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_vid_tianma_h_1080p_624.xml \
     vendor/motorola/river/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_n_1080p_624.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_vid_tianma_n_1080p_624.xml \
-    vendor/motorola/river/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-ets.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service-ets.rc \
-    vendor/motorola/river/proprietary/vendor/etc/init/init.ets.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.ets.rc \
     vendor/motorola/river/proprietary/vendor/firmware/aw869x_haptic.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_haptic.bin \
     vendor/motorola/river/proprietary/vendor/firmware/aw869x_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_rtp.bin \
     vendor/motorola/river/proprietary/vendor/firmware/aw869x_rtp_Argo_Navis.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_rtp_Argo_Navis.bin \
@@ -131,12 +131,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/river/proprietary/vendor/lib/modules/cirrus_madera.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/cirrus_madera.ko \
     vendor/motorola/river/proprietary/vendor/lib/modules/cirrus_playback.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/cirrus_playback.ko \
     vendor/motorola/river/proprietary/vendor/lib/modules/cirrus_wm_adsp.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/cirrus_wm_adsp.ko \
-    vendor/motorola/river/proprietary/vendor/lib/modules/extcon-madera.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/extcon-madera.ko \
-    vendor/motorola/river/proprietary/vendor/lib/modules/gpio-madera.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/gpio-madera.ko \
-    vendor/motorola/river/proprietary/vendor/lib/modules/madera-ldo1.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/madera-ldo1.ko \
-    vendor/motorola/river/proprietary/vendor/lib/modules/madera-micsupp.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/madera-micsupp.ko \
-    vendor/motorola/river/proprietary/vendor/lib64/libets_fp_et5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libets_fp_et5.so \
-    vendor/motorola/river/proprietary/vendor/lib64/libets_teeclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libets_teeclient.so \
     vendor/motorola/river/proprietary/vendor/lib/modules/drv2624_mmi.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/drv2624_mmi.ko \
     vendor/motorola/river/proprietary/vendor/lib/modules/ets_fps_mmi.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/ets_fps_mmi.ko \
     vendor/motorola/river/proprietary/vendor/lib/modules/exfat.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/exfat.ko \
@@ -167,4 +161,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/river/proprietary/vendor/lib/modules/tzlog_dump.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/tzlog_dump.ko \
     vendor/motorola/river/proprietary/vendor/lib/modules/utags.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/utags.ko \
     vendor/motorola/river/proprietary/vendor/lib/modules/watchdog_cpu_ctx.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/watchdog_cpu_ctx.ko \
-    vendor/motorola/river/proprietary/vendor/lib/modules/watchdogtest.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/watchdogtest.ko
+    vendor/motorola/river/proprietary/vendor/lib/modules/watchdogtest.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/watchdogtest.ko \
+    vendor/motorola/river/proprietary/vendor/lib64/libets_fp_et5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libets_fp_et5.so \
+    vendor/motorola/river/proprietary/vendor/lib64/libets_teeclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libets_teeclient.so \
+    vendor/motorola/river/proprietary/vendor/lib64/vendor.egistec.hardware.fingerprint@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.egistec.hardware.fingerprint@2.0.so

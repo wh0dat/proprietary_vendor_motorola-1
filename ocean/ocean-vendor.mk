@@ -43,6 +43,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/ocean/proprietary/vendor/firmware/mono.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/mono.cnt \
     vendor/motorola/ocean/proprietary/vendor/firmware/novatek_ts-csot-NT36672A-180919-07-ocean.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts-csot-NT36672A-180919-07-ocean.bin \
     vendor/motorola/ocean/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
+    vendor/motorola/ocean/proprietary/vendor/lib/modules/abov_sar.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/abov_sar.ko \
     vendor/motorola/ocean/proprietary/vendor/lib/modules/audio_adsp_loader.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_adsp_loader.ko \
     vendor/motorola/ocean/proprietary/vendor/lib/modules/audio_analog_cdc.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_analog_cdc.ko \
     vendor/motorola/ocean/proprietary/vendor/lib/modules/audio_apr.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_apr.ko \
@@ -67,7 +68,28 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/ocean/proprietary/vendor/lib/modules/audio_wcd_cpe.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_wcd_cpe.ko \
     vendor/motorola/ocean/proprietary/vendor/lib/modules/audio_wsa881x.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_wsa881x.ko \
     vendor/motorola/ocean/proprietary/vendor/lib/modules/audio_wsa881x_analog.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_wsa881x_analog.ko \
+    vendor/motorola/ocean/proprietary/vendor/lib/modules/aw8624.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/aw8624.ko \
+    vendor/motorola/ocean/proprietary/vendor/lib/modules/drv2624_mmi.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/drv2624_mmi.ko \
+    vendor/motorola/ocean/proprietary/vendor/lib/modules/exfat.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/exfat.ko \
+    vendor/motorola/ocean/proprietary/vendor/lib/modules/focaltech_mmi.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/focaltech_mmi.ko \
+    vendor/motorola/ocean/proprietary/vendor/lib/modules/ilitek_mmi.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/ilitek_mmi.ko \
     vendor/motorola/ocean/proprietary/vendor/lib/modules/isdbt.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/isdbt.ko \
     vendor/motorola/ocean/proprietary/vendor/lib/modules/mcDrvModule.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/mcDrvModule.ko \
-    vendor/motorola/ocean/proprietary/vendor/lib/modules/snd_soc_tfa9874.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/snd_soc_tfa9874.ko
-
+    vendor/motorola/ocean/proprietary/vendor/lib/modules/mmi_annotate.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/mmi_annotate.ko \
+    vendor/motorola/ocean/proprietary/vendor/lib/modules/mmi_info.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/mmi_info.ko \
+    vendor/motorola/ocean/proprietary/vendor/lib/modules/mmi_sys_temp.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/mmi_sys_temp.ko \
+    vendor/motorola/ocean/proprietary/vendor/lib/modules/modules.alias:$(TARGET_COPY_OUT_VENDOR)/lib/modules/modules.alias \
+    vendor/motorola/ocean/proprietary/vendor/lib/modules/modules.dep:$(TARGET_COPY_OUT_VENDOR)/lib/modules/modules.dep \
+    vendor/motorola/ocean/proprietary/vendor/lib/modules/moto_f_usbnet.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/moto_f_usbnet.ko \
+    vendor/motorola/ocean/proprietary/vendor/lib/modules/mpq-adapter.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/mpq-adapter.ko \
+    vendor/motorola/ocean/proprietary/vendor/lib/modules/mpq-dmx-hw-plugin.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/mpq-dmx-hw-plugin.ko \
+    vendor/motorola/ocean/proprietary/vendor/lib/modules/nova_mmi.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/nova_mmi.ko \
+    vendor/motorola/ocean/proprietary/vendor/lib/modules/sensors_class.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/sensors_class.ko \
+    vendor/motorola/ocean/proprietary/vendor/lib/modules/snd_soc_tfa9874.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/snd_soc_tfa9874.ko \
+    vendor/motorola/ocean/proprietary/vendor/lib/modules/st21nfc.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/st21nfc.ko \
+    vendor/motorola/ocean/proprietary/vendor/lib/modules/sx932x_sar.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/sx932x_sar.ko \
+    vendor/motorola/ocean/proprietary/vendor/lib/modules/tps61280.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/tps61280.ko \
+    vendor/motorola/ocean/proprietary/vendor/lib/modules/tzlog_dump.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/tzlog_dump.ko \
+    vendor/motorola/ocean/proprietary/vendor/lib/modules/utags.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/utags.ko \
+    vendor/motorola/ocean/proprietary/vendor/lib/modules/watchdog_cpu_ctx.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/watchdog_cpu_ctx.ko \
+    vendor/motorola/ocean/proprietary/vendor/lib/modules/watchdogtest.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/watchdogtest.ko
